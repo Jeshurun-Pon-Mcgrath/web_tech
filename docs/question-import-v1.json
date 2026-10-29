@@ -1,0 +1,58 @@
+{
+  "format": "examledger.questions",
+  "version": 1,
+  "questions": [
+    {
+      "subjectCode": "DEV-SUBJECT",
+      "type": "single",
+      "prompt": "[FICTIONAL TEMPLATE] Single-answer question",
+      "choices": [
+        { "id": "a", "text": "First option" },
+        { "id": "b", "text": "Second option" }
+      ],
+      "correctChoiceIds": ["a"],
+      "topic": "sample topic",
+      "difficulty": "easy",
+      "tags": ["fictional", "template"],
+      "points": 2,
+      "penalty": 0.5,
+      "explanation": "[FICTIONAL TEMPLATE] Explain the answer here.",
+      "archived": false
+    },
+    {
+      "subjectCode": "DEV-SUBJECT",
+      "type": "multiple",
+      "prompt": "[FICTIONAL TEMPLATE] Multiple-answer question",
+      "choices": [
+        { "id": "a", "text": "First option" },
+        { "id": "b", "text": "Second option" },
+        { "id": "c", "text": "Third option" }
+      ],
+      "correctChoiceIds": ["a", "c"],
+      "topic": "sample topic",
+      "difficulty": "easy",
+      "tags": ["fictional", "template"],
+      "points": 2,
+      "penalty": 0.5,
+      "explanation": "[FICTIONAL TEMPLATE] Explain the answer here.",
+      "archived": false
+    },
+    {
+      "subjectCode": "DEV-SUBJECT",
+      "type": "true-false",
+      "prompt": "[FICTIONAL TEMPLATE] True or false question",
+      "choices": [
+        { "id": "true", "text": "True" },
+        { "id": "false", "text": "False" }
+      ],
+      "correctChoiceIds": ["true"],
+      "topic": "sample topic",
+      "difficulty": "easy",
+      "tags": ["fictional", "template"],
+      "points": 2,
+      "penalty": 0.5,
+      "explanation": "[FICTIONAL TEMPLATE] Explain the answer here.",
+      "archived": false
+    }
+  ]
+}
